@@ -1,0 +1,10 @@
+.side-menu {
+  background-color: var(--color-black);
+  width: 14rem;
+  height: 100vh;
+}
+
+.img-profile {
+  width: 4rem;
+  height: 4rem;
+}

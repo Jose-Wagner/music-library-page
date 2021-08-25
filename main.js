@@ -1,6 +1,15 @@
-import './style.css'
+import './src/style/settings/colors.css'
+import './src/style/elements/base.css'
 
-document.querySelector('#app').innerHTML = `
-  <h1>Ola!</h1>
-  <a href="https://vitejs.dev/guide/features.html" target="_blank">Documentation</a>
-`
+import './src/style/generic/reset.css'
+
+import aside from './src/components/aside'
+
+const $app = document.querySelector('#app')
+
+$app.insertAdjacentHTML(
+  'beforeend',
+  `
+    ${aside()}
+  `,
+)
