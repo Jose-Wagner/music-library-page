@@ -8,8 +8,6 @@
      Página de biblioteca de músicas
        <br/>
     <br/>
-    
-    ·
     <a href="https://www.devchallenge.com.br/">DevChallenge</a>
   </p>
 </p>
